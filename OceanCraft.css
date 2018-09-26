@@ -1,0 +1,110 @@
+html{
+  box-sizing: border-box;
+  background-color:  hsl(220, 80%, 56%);
+}
+
+header{
+  background-color: hsl(210, 90%, 56%);
+  text-align: center;
+  color: white;
+  border: outset;
+}
+
+.navi{
+  list-style: none;
+  text-align: center;
+}
+
+.navi li{
+  display: inline-block;
+}
+
+.navi a{
+  text-decoration: none;
+  color: white;
+ }
+
+ .navi li:hover{
+   background-color: hsl(210, 100%, 25%);
+ }
+
+.navbtn{
+  background-color: rgb(30, 144, 255);
+  color: white;
+  font-size: 1.2em;
+  padding: 10px;
+  border: outset;
+}
+
+.body{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  padding-top: 20px;
+}
+
+.pic{
+  width: 100%;
+  /* box-shadow: 5px 5px; */
+  border: outset;
+}
+
+.bodyul{
+  list-style: none;
+  color: white;
+  line-height: 1.5em;
+}
+
+.textblock{
+  border: outset;
+}
+
+.bodyul a{
+  color: white;
+}
+
+.bodyul a:hover{
+  background-color:  hsl(210, 100%, 25%);
+}
+
+.boxhead{
+  text-align: center;
+  color: white;
+}
+
+.quadblock{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 2fr;
+  grid-gap: 10px;
+  padding-top: 20px;
+}
+
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer{
+  background-color: hsl(210, 90%, 56%);
+  text-align: center;
+  color: white;
+  border: outset;
+}
+
+.contact{
+  list-style: none;
+  text-align: left;
+}
+
+.footsie{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.social{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
